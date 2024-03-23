@@ -1,0 +1,1 @@
+<a href="https://www.freepik.com/free-vector/abstract-pixel-design-banner_27250823.htm#query=digital%20texture&position=1&from_view=keyword&track=ais&uuid=cdbbec09-ee0d-437e-b796-7981e4da0bbc">Image by kjpargeter</a> on Freepik
