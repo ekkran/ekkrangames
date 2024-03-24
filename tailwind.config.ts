@@ -55,10 +55,7 @@ const config: Config = {
           '950': '#4d1b00',
         },
       },
-    }, 
-    fontFamily: {
-      'title': "Bevan, serif"
-    }
+    },
   },
   plugins: [],
 };

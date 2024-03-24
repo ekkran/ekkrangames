@@ -27,7 +27,7 @@ const NavBar = (props : navBarItems) => {
         <nav className=" bg-atoll-800 fixed min-w-full sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
             <div  className="flex items-center justify-between px-4 py-3 sm:p-0" >
                 <div className="">
-                    <button className="text-atoll-100 hover:text-atoll-50 font-title text-xl font-bold">Ekkran</button>
+                    <button className="text-atoll-100 hover:text-atoll-50 text-xl font-bold">Ekkran</button>
                 </div>
                 <div className="sm:hidden" >
                     <button type="button" onClick={openMenu} className="block text-atoll-300 hover:text-atoll-50 focus:text-atoll-50 focus:outline-none">

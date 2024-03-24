@@ -23,7 +23,7 @@ let menuItems = [
     href:"/About",
     name:"About"
   }
-]
+];
 
 
 export default function RootLayout({
