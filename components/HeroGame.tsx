@@ -1,12 +1,12 @@
 import Image from "next/image";
-import OscarIcon from "../public/HeroImages/OscarIcon.png"
+import OscarIcon from "@/public/HeroImages/OscarIcon.png"
 
 const HeroGame = () => {
     return (
         <div className="min-h-screen bg-[url('../public/HeroImages/HeroGameMobil.png')] bg-center bg-no-repeat bg-cover lg:bg-[url('../public/HeroImages/HeroGame.png')] sm:bg-cover">
             <div className="container mx-auto flex-col min-h-max columns-3xl items-center space-y-4 py-24">
                 <div className="size-64 mx-auto relative">
-                    <Image src={OscarIcon} alt="GameIcon" fill={true} objectFit="contain"></Image>
+                    <Image className="object-contain" src={OscarIcon} alt="GameIcon" fill={true} ></Image>
                 </div>
                 <h2 className=" text-6xl font-bold text-center text-atoll-100">Oscar</h2>
                 <div className=" my-10">
