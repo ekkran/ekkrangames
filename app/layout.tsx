@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body className={inter.className}>
+      <body className={inter.className + " " + "app"}>
       <NavBar items={menuItems} ></NavBar>
         {children}
         </body>
