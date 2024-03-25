@@ -58,9 +58,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  important: '#app',
 };
 export default config;
-
-module.exports = {
-  important: '#app',
-}
