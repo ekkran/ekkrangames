@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const About = () => {  
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
       <h1>About Us</h1>
