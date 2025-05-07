@@ -1,3 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-regal-blue-50: #f2f8fd;
+  --color-regal-blue-100: #e5eff9;
+  --color-regal-blue-200: #c4def3;
+  --color-regal-blue-300: #91c2e8;
+  --color-regal-blue-400: #56a2da;
+  --color-regal-blue-500: #3087c7;
+  --color-regal-blue-600: #216ba8;
+  --color-regal-blue-700: #1c5688;
+  --color-regal-blue-800: #1b4971;
+  --color-regal-blue-900: #1c4061;
+  --color-regal-blue-950: #12283f;
+};
