@@ -5,9 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="bg-outer-space-950 flex flex-col items-center justify-center min-h-screen">
+  <header class="flex flex-row items-center justify-center w-full my-8">
+    <h1 class="text-5xl text-outer-space-100 font-bold">Ekkran Games</h1>
+  </header>
+  <main class="flex flex-col shrink-0 w-full items-center justify-center bg-outer-space-900 p-8">
+    
+    <div class="flex flex-row items-center justify-center w-full bg-gradient-to-b from-outer-space-800 to-outer-space-900 p-4 rounded-lg shadow-lg">
+      <div class="flex flex-col items-center justify-center w-1/2 p-4">
+        <img src="../assets/oscarfondo.png" alt="Ekkran Games Logo" class="w-1/2 h-auto">
+      </div>
+      <div class="flex flex-col items-left justify-start text-left w-1/2 p-4">
+        <h2 class="text-4xl text-outer-space-200">Welcome to Ekkran Games!</h2>
+        <div class="pt-6 pb-2 text-outer-space-200">
+          <p class="text-wrap text-outer-space-200">We are a game development studio based in Costa Rica, dedicated to creating tools and solutions for the modern game development journey</p>
+        </div>
+        <div class="pt-6 pb-2 text-outer-space-200">
+          <p>Want to know more?</p>
+          <p>Join our newsletter</p>
+          <div class="pt-2">
+            <input type="email" placeholder="Enter your email" class="p-2 border border-outer-space-700 rounded-lg mb-2">
+            <button class="bg-outer-space-700 text-outer-space-100 p-2 rounded-lg hover:bg-outer-space-600">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center justify-center w-full bg-gradient-to-b from-outer-space-800 to-outer-space-900 p-4 rounded-lg shadow-lg mt-4">
+      <header class="w-full flex items-center justify-center text-3xl text-outer-space-200">Our proyects</header>
+      <ul class="flex flex-row items-center justify-around w-full p-4 mt-4">
+        <li>
+          <a class="w-64 h-64 flex items-center justify-center bg-outer-space-700 text-outer-space-100 p-2 rounded-lg hover:bg-outer-space-600" href="">
+            <img src="../assets/ekkran.png" alt="Unity assets store" class="w-32 h-auto">
+          </a>
+        </li>
+        <li>
+          <a class="w-64 h-64 flex items-center justify-center bg-outer-space-700 text-outer-space-100 p-2 rounded-lg hover:bg-outer-space-600" href="">
+            <img src="../assets/ekkran.png" alt="Ekkran Games Logo" class="w-32 h-auto">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </main>
+  <footer class="w-full pt-4 flex flex-col items-center justify-center bg-outer-space-800 text-outer-space-100 p-4">
+    <p class="text-center">Ekkran Games is a game development studio based in Costa Rica.</p>
+    <p>© 2023 Ekkran Games</p>
+    <p>All rights reserved.</p>
+    <p>Contact: <a href="mailto:ekkrangames@gmail.com">josegironf@gmail.com</a>
+  </footer>
+  
 </body>
 </html>

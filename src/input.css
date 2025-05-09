@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-outer-space-50: #f3f8f8;
+  --color-outer-space-100: #e0ebed;
+  --color-outer-space-200: #c5d9dc;
+  --color-outer-space-300: #9dbdc3;
+  --color-outer-space-400: #6d99a3;
+  --color-outer-space-500: #527d88;
+  --color-outer-space-600: #466974;
+  --color-outer-space-700: #3e5760;
+  --color-outer-space-800: #384b52;
+  --color-outer-space-900: #324047;
+  --color-outer-space-950: #222e34;
+}
