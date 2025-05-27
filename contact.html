@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-outer-space-950 flex flex-col items-center justify-center min-h-screen">
+  <header class="w-full flex items-center justify-center my-8">
+    <a class="text-5xl text-outer-space-100 font-bold" href="./index.html">Ekkran Games</a>
+  </header>
+  <div class="bg-gradient-to-b from-outer-space-800 to-outer-space-900 p-8 rounded-lg shadow-lg w-full max-w-md">
+    <h1 class="text-2xl font-bold mb-6 text-outer-space-100 text-center">Contact Us</h1>
+    <form action="#" method="POST" class="space-y-4">
+      <div>
+        <label for="name" class="block text-sm font-medium text-outer-space-200">Name</label>
+        <input type="text" id="name" name="name" required
+          class="mt-1 block w-full px-4 py-2 focus:bg-outer-space-950 text-outer-space-200 border border-outer-space-800 rounded-md shadow-sm focus:ring-0 focus:outline-0 focus:border-outer-space-300">
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-outer-space-200">Email</label>
+        <input type="email" id="email" name="email" required
+          class="mt-1 block w-full px-4 py-2 focus:bg-outer-space-950 text-outer-space-200 border border-outer-space-800 rounded-md shadow-sm focus:ring-0 focus:outline-0 focus:border-outer-space-300">
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium text-outer-space-200">Message</label>
+        <textarea id="message" name="message" rows="4" required
+          class="mt-1 block w-full px-4 py-2 focus:bg-outer-space-950 text-outer-space-200 border border-outer-space-800 rounded-md shadow-sm focus:ring-0 focus:outline-0 focus:border-outer-space-300"></textarea>
+      </div>
+      <button type="submit"
+        class="w-full bg-outer-space-600 text-outer-space-100 py-2 px-4 rounded-md hover:bg-outer-space-500 focus:outline-none focus:ring-2 focus:ring-outer-space-300 focus:ring-offset-2">
+        Send Message
+      </button>
+    </form>
+  </div>
+</body>
+</html>
