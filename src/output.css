@@ -1,4 +1,4 @@
-/*! tailwindcss v4.1.5 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.7 | MIT License | https://tailwindcss.com */
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
@@ -17,6 +17,10 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
+    --text-6xl: 3.75rem;
+    --text-6xl--line-height: 1;
+    --text-8xl: 6rem;
+    --text-8xl--line-height: 1;
     --font-weight-bold: 700;
     --radius-lg: 0.5rem;
     --default-font-family: var(--font-sans);
@@ -182,14 +186,8 @@
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
-  .mt-8 {
-    margin-top: calc(var(--spacing) * 8);
-  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
-  }
-  .mb-4 {
-    margin-bottom: calc(var(--spacing) * 4);
   }
   .contents {
     display: contents;
@@ -206,8 +204,8 @@
   .h-auto {
     height: auto;
   }
-  .h-screen {
-    height: 100vh;
+  .h-full {
+    height: 100%;
   }
   .min-h-screen {
     min-height: 100vh;
@@ -217,9 +215,6 @@
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
-  }
-  .w-32 {
-    width: calc(var(--spacing) * 32);
   }
   .w-64 {
     width: calc(var(--spacing) * 64);
@@ -257,11 +252,6 @@
   .justify-start {
     justify-content: flex-start;
   }
-  .truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
@@ -271,12 +261,6 @@
   }
   .border-outer-space-700 {
     border-color: var(--color-outer-space-700);
-  }
-  .bg-gray-100 {
-    background-color: var(--color-gray-100);
-  }
-  .bg-gray-200 {
-    background-color: var(--color-gray-200);
   }
   .bg-outer-space-700 {
     background-color: var(--color-outer-space-700);
@@ -290,9 +274,6 @@
   .bg-outer-space-950 {
     background-color: var(--color-outer-space-950);
   }
-  .bg-white {
-    background-color: var(--color-white);
-  }
   .bg-gradient-to-b {
     --tw-gradient-position: to bottom in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
@@ -304,6 +285,9 @@
   .to-outer-space-900 {
     --tw-gradient-to: var(--color-outer-space-900);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .object-cover {
+    object-fit: cover;
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
@@ -343,6 +327,14 @@
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
+  .text-6xl {
+    font-size: var(--text-6xl);
+    line-height: var(--tw-leading, var(--text-6xl--line-height));
+  }
+  .text-8xl {
+    font-size: var(--text-8xl);
+    line-height: var(--tw-leading, var(--text-8xl--line-height));
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
