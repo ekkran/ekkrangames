@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-reef-gold-50: #FAF8F4;
+  --color-reef-gold-100: #F5F2E8;
+  --color-reef-gold-200: #E7DEC7;
+  --color-reef-gold-300: #D9CBA5;
+  --color-reef-gold-400: #BCA361;
+  --color-reef-gold-500: #9F7C1D;
+  --color-reef-gold-600: #8F701A;
+  --color-reef-gold-700: #5F4A11;
+  --color-reef-gold-800: #48380D;
+  --color-reef-gold-900: #302509;
+  --color-reef-gold-950: #1F1608;
+
+  --color-marshland-50: #F3F3F3;
+  --color-marshland-100: #E8E8E7;
+  --color-marshland-200: #C5C4C3;
+  --color-marshland-300: #A1A19F;
+  --color-marshland-400: #5B5B57;
+  --color-marshland-500: #15140F;
+  --color-marshland-600: #13120E;
+  --color-marshland-700: #0D0C09;
+  --color-marshland-800: #090907;
+  --color-marshland-900: #060605;
+}
+
+@layer base {
+  html {
+    min-height: 100%;
+  }
+
+  body {
+    min-height: 100vh;
+    background: var(--color-marshland-700);
+    color: var(--color-reef-gold-200);
+    font-family: ui-sans-serif, system-ui, sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button,
+  input,
+  textarea {
+    font: inherit;
+  }
+}
+
